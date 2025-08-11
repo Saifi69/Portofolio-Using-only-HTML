@@ -3,102 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Using Only HTML</title>
+    <title>Portfolio - Saif Ul Jamal</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <center>
+
+    <!-- Header Section -->
+    <div class="header">
         <h1>Saif Ul Jamal</h1>
         <h3>Web Developer</h3>
-        <img src="my pic.jpg" alt="Profile Picture" width="17%" height="17%"><br>
-    </center>
-    <center>
-        <a href="mailto:saiftanoli30@gmail.com">
-            <button>Hire Me</button>
-        </a><pre></pre>
-        <a href="My CV.pdf" target="_blank">
-            <button>Download MY CV</button>
-        </a>
-    </center>
-    <hr>
-    <h2>About Me</h2>
-    <p>I am a highly motivated and enthusiastic web developer, 
-        recently graduated with a degree in <br> Software Engineering. 
-        I am seeking an opportunity to join your esteemed organization where 
-        I <br> can apply and further enhance my skills, contribute to impactful projects, 
-        and grow as a valuable <br> member of your team.</p>
-    <hr>
-    <h2>Skills</h2>
-    <ul>
-        <li>Proficient in C++ programming</li>
-        <li>Experienced in WordPress development</li>
-        <li>Good working knowledge of HTML, CSS, and Python</li>
-        <li>Hands-on experience in mobile app development using Dart and Flutter</li>
-        <li>Strong logical thinking and problem-solving skills</li>
-        <li>Highly adaptable to new environments and team dynamics</li>
-    </ul>
-    <hr>
-    <h2>Education</h2>
-    <table border="1" align="center" cellpadding="8" cellspacing="0">
-        <caption>
-            <b>Academic Qualifications</b>
-        </caption>
-        <tr>
-            <th>Year</th>
-            <th>Degree</th>
-            <th>Institute</th>
-            <th>Achievements</th>
-        </tr>
-        <tr>
-            <td>2017-2019</td>
-            <td>MATRIC</td>
-            <td>Baharia Foundation College Haripur</td>
-            <td>I got 89% in matric from Abbotabad Board</td>
-        </tr>
-        <tr>
-            <td>2019-2021</td>
-            <td>INTERMEDIATE</td>
-            <td>Bright Vision Model College Haripur</td>
-            <td>I got 95.81% in intermediate from Abbotabad Board</td>
-        </tr>
-        <tr>
-            <td>2021-2025</td>
-            <td>BS SOFTWARE ENGINEERING</td>
-            <td>Pak Austria Fachhochschule Institute of Applied Sciences and Technology Mang Haripur</td>
-            <td>I got 3.32 CGPA in my program</td>
-        </tr>
-    </table>
-    <hr>
-    <h2>Projects</h2>
-    <ol>
-        <li>
+        <img src="my pic.jpg" alt="Profile Picture" class="profile-img">
+        <div class="buttons">
+            <a href="mailto:saiftanoli30@gmail.com" class="btn">Hire Me</a>
+            <a href="My CV.pdf" target="_blank" class="btn">Download My CV</a>
+        </div>
+    </div>
+
+    <!-- About Me Section -->
+    <div class="section about">
+        <h1>About Me</h1>
+        <p>
+            I am a highly motivated and enthusiastic web developer, recently graduated with a degree in Software Engineering.
+            I am seeking an opportunity to join your esteemed organization where I can apply and further enhance my skills,
+            contribute to impactful projects, and grow as a valuable member of your team.
+        </p>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="section skills">
+        <h1>Skills</h1>
+        <ul>
+            <li>Proficient in C++ programming</li>
+            <li>Experienced in WordPress development</li>
+            <li>Good working knowledge of HTML, CSS, and Python</li>
+            <li>Hands-on experience in mobile app development using Dart and Flutter</li>
+            <li>Strong logical thinking and problem-solving skills</li>
+            <li>Highly adaptable to new environments and team dynamics</li>
+        </ul>
+    </div>
+
+    <!-- Education Section -->
+    <div class="section education">
+        <h1>Education</h1>
+        <table>
+            <caption><b>Academic Qualifications</b></caption>
+            <tr>
+                <th>Year</th>
+                <th>Degree</th>
+                <th>Institute</th>
+                <th>Achievements</th>
+            </tr>
+            <tr>
+                <td>2017-2019</td>
+                <td>Matric</td>
+                <td>Baharia Foundation College Haripur</td>
+                <td>89% in Matric from Abbottabad Board</td>
+            </tr>
+            <tr>
+                <td>2019-2021</td>
+                <td>Intermediate</td>
+                <td>Bright Vision Model College Haripur</td>
+                <td>95.81% in Intermediate from Abbottabad Board</td>
+            </tr>
+            <tr>
+                <td>2021-2025</td>
+                <td>BS Software Engineering</td>
+                <td>Pak Austria Fachhochschule Institute of Applied Sciences and Technology Mang Haripur</td>
+                <td>3.32 CGPA</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="section projects">
+        <h1>Projects</h1>
+        <div class="project-item">
             <h3>Inventory Management System</h3>
-            <p>I developed an Inventory Management System uisng OOP concepts in C++ language</p>
+            <p>Developed using OOP concepts in C++ language</p>
             <img src="https://placehold.co/300x200?text=Project+Image" alt="Inventory Management System">
-        </li>
-        <li>
-            <h3>Racing game in Roblox</h3>
-            <p>I developed a multiplayer pvp racing game in roblox using roblox studio</p>
+        </div>
+        <div class="project-item">
+            <h3>Racing Game in Roblox</h3>
+            <p>Multiplayer PvP racing game using Roblox Studio</p>
             <img src="https://placehold.co/300x200?text=Project+Image" alt="Racing Game">
-        </li>
-        <li>
+        </div>
+        <div class="project-item">
             <h3>Blogging Website</h3>
-            <p>I developed a blogging website using WordPress with elementor</p>
+            <p>Developed using WordPress and Elementor</p>
             <img src="https://placehold.co/300x200?text=Project+Image" alt="Blogging Website">
-        </li>
-    </ol>
-    <hr>
-    <h2>Achievements</h2>
-    <ul>
-        <li>Developed and deployed a fully functional blogging website (also listed in projects).</li>
-        <li>My team and I secured 3rd position in a Hackathon coding competition.</li>
-        <li>Pursuing coding has significantly improved my logical thinking skills.</li>
-    </ul>
-    <hr>
-    <footer align="center">
-        <h2>Contact</h2>
-        <p><img src="mob.PNG" alt="mobile icon" width="17px" height="17px"> +923492611174 </p>
-        <p><img src="mail.PNG" alt="mail icon" width="17px" height="17px"><a href="mailto:saiftanoli30@gmail.com">  saiftanoli30@gmail.com</a></p>
-        <p><img src="linkedin.PNG" alt="linkedin icon" width="17px" height="17px"><a href="https://www.linkedin.com/in/saif-ul-jamal-1a4003326/"> Saif Ul Jamal</a></p>
+        </div>
+    </div>
+
+    <!-- Achievements Section -->
+    <div class="section achievements">
+        <h1>Achievements</h1>
+        <ul>
+            <li>Developed and deployed a fully functional blogging website.</li>
+            <li>Secured 3rd position in a Hackathon coding competition.</li>
+            <li>Improved logical thinking skills through coding practice.</li>
+        </ul>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <h1 >Contact</h1>
+        <p><img src="mob.PNG" alt="mobile icon" class="icon"> +92 349 2611174 </p>
+        <p><img src="mail.PNG" alt="mail icon" class="icon"><a href="mailto:saiftanoli30@gmail.com"> saiftanoli30@gmail.com</a></p>
+        <p><img src="linkedin.PNG" alt="linkedin icon" class="icon"><a href="https://www.linkedin.com/in/saif-ul-jamal-1a4003326/"> Saif Ul Jamal</a></p>
     </footer>
 
 </body>
